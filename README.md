@@ -9,4 +9,10 @@ Despite many of the most common chaotic dynamical systems being continuous in ti
 Our goal with this project is to find an explicit Poincare mapping which fits data gathered in a suitable Poincare section from a continuous-time dynamical system. We employ a feed-forward neural network architecture to circumvent discovering the Poincare mapping directly. Precisely, the network exploits the concept of a topological conjugacy and discovers an invertible change of variables along with a latent mapping that governs iterates of the transformed variables. The network is equivalent to the structure of the Poincare map in that it takes a current intersection of the flow with the section and maps it to the next intersection. Entering an observation into the network results in it being first transformed by the change of variable, then fed into the latent mapping, and then the advanced latent variable is transformed back to physical space using the inverse of the change of variable. The goal of this process is to have the latent mapping be a simple as possible to best understand the system on hand. The network performs the difficult task of obtaining the nonlinear change of vairable.   
  
 ## **Repository Contents**
+This repository is organized into three folders. They are organized as follows:
 
+- [networks](https://github.com/jbramburger/Deep-Conjugacies/tree/main/networks)
+
+-[saved_models](https://github.com/jbramburger/Deep-Conjugacies/tree/main/saved_models)
+
+- [UPOs](https://github.com/jbramburger/Deep-Conjugacies/tree/main/UPOs)
