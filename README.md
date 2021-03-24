@@ -11,8 +11,8 @@ Our goal with this project is to find an explicit Poincare mapping which fits da
 ## **Repository Contents**
 This repository is organized into three folders. They are organized as follows:
 
-- [**networks**](https://github.com/jbramburger/Deep-Conjugacies/tree/main/networks):
+- [**networks**](https://github.com/jbramburger/Deep-Conjugacies/tree/main/networks): This folder contains jupyter notebooks to reproduce the results from Sections 4 and 5 of the manuscript. There are notebooks to discover the 1D conjugate mappings for the Rossler system, Gissinger systems and the Mackey-Glass equation using the general network architecture found in architecture_1D.py. Furthermore, there are notebooks for the discovery of 1D and 2D conjugate maps associated to the Lorenz and Kuramoto-Sivashinsky equations, as described in Section 4.2 and 5.1, respectively. The Python script utils.py contains the right-hand-sides of the differential equations that are used.  
 
-- [saved_models](https://github.com/jbramburger/Deep-Conjugacies/tree/main/saved_models)
+- [saved_models](https://github.com/jbramburger/Deep-Conjugacies/tree/main/saved_models): All models that are presented in the manuscript have been saved in this fold. Use the jupyter notebook load_saved.ipynb to load and view these saved models. This notebook can also be used to obtain the location of unstable periodic orbits in the Poincare section using the inverse of the change of variable.
 
 - [UPOs](https://github.com/jbramburger/Deep-Conjugacies/tree/main/UPOs)
