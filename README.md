@@ -11,8 +11,8 @@ Our goal with this project is to find an explicit Poincare mapping which fits da
 ## **Repository Contents**
 This repository is organized into three folders. They are organized as follows:
 
-- [networks](https://github.com/jbramburger/Deep-Conjugacies/tree/main/networks)
+- [**networks**](https://github.com/jbramburger/Deep-Conjugacies/tree/main/networks):
 
--[saved_models](https://github.com/jbramburger/Deep-Conjugacies/tree/main/saved_models)
+- [saved_models](https://github.com/jbramburger/Deep-Conjugacies/tree/main/saved_models)
 
 - [UPOs](https://github.com/jbramburger/Deep-Conjugacies/tree/main/UPOs)
