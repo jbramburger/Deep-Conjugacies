@@ -142,7 +142,7 @@ toc %end timer
 x1UPO = -xNew(1:N)/scale; 
 x2UPO = -xNew(N+1:2*N)/scale;
 x3UPO = xNew(2*N+1:3*N);
-period = tspan(N)/xNew(end);
+period = tspan(N)*xNew(end);
 
 % Plot the solution in the x1-x3 plane
 plot([-x1UPO; -x1UPO],[x3UPO; x3UPO],'Linewidth',5)
